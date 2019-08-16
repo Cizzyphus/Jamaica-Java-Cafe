@@ -16,8 +16,8 @@ html {
 body {
     font-family: 'Didact Gothic';
     font-size: 20px;
-    background-image: url(../src/assets/Facetune.jpg); background-size: cover; background-repeat: no-repeat;
-    
+    /* background-image: url(../src/assets/Facetune.jpg); background-size: cover; background-repeat: no-repeat;
+    height: auto; */
 }
 a {
     text-decoration: none;

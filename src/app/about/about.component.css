@@ -35,4 +35,10 @@ padding: 0.5em;
     color: white;
 }
 
+.back{
+    background-image: url(../../assets/Facetune.jpg); background-size: cover; background-repeat: no-repeat;
+    min-height: 100%;
+    z-index: -1;
+}
+
 /* #ebd6b8  Background for SOMA*/

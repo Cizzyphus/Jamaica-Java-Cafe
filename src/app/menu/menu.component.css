@@ -1,9 +1,16 @@
+.back{
+    background-image: url(../../assets/menu.jpg); background-size: cover; background-repeat: no-repeat;
+    min-height: 100%;
+    z-index: -1;
+}
+
 .menu {
     padding: 0.5em;
 background:   #000000;
 opacity: 0.8;
 margin: auto;
 display: block;
+width: 80%;
 }
 
 .menuu {
@@ -11,3 +18,9 @@ display: block;
     text-align: center;
     color: white;
 }
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .menu{ width: auto }
+  }
